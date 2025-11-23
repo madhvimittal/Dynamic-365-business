@@ -1,0 +1,29 @@
+{
+  "name": "highlightjs-al",
+  "version": "1.0.0",
+  "description": "Microsoft Dynamics Business Central AL syntax highlighting plugin for highlight.js",
+  "main": "src/al.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/AL.git"
+  },
+  "keywords": [
+    "al",
+    "hljs",
+    "highlightjs",
+    "highlight.js"
+  ],
+  "author": "Esben Nyhuus Kristoffersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Microsoft/AL/issues"
+  },
+  "homepage": "https://github.com/Microsoft/AL/highlightjs-al#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
